@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DPI Network Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px;
+            background: rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .card {
+            background: white;
+            color: black;
+            margin: 20px auto;
+            padding: 20px;
+            width: 60%;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 8px;
+            font-size: 18px;
+        }
+
+        pre {
+            background: black;
+            color: #00ffcc;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background: #ff9800;
+            padding: 12px 20px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background: #e68900;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🚀 DPI Engine Project</h1>
+    <p>Deep Packet Inspection System built in C++</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>📌 Features</h2>
+        <ul>
+            <li>✔ Multi-threaded processing</li>
+            <li>✔ PCAP file analysis</li>
+            <li>✔ SNI Extraction (HTTPS detection)</li>
+            <li>✔ Application Detection (YouTube, Google, etc.)</li>
+            <li>✔ Packet Blocking System</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>▶️ Run Command</h2>
+        <pre>
+g++ -std=c++17 -pthread -O2 -I include -o dpi_engine src/dpi_mt.cpp
+./dpi_engine test_dpi.pcap output.pcap
+        </pre>
+    </div>
+
+    <div class="card">
+        <h2>📊 Sample Output</h2>
+        <p>✔ Packets Processed: 77</p>
+        <p>✔ Applications Detected: YouTube, Facebook, Google, etc.</p>
+    </div>
+
+    <div class="card">
+        <h2>🔗 GitHub Repository</h2>
+        <a href="https://github.com/vanshikakamboj21/dpi-network-analyzer" target="_blank">
+            View Project
+        </a>
+    </div>
+
+</div>
+
+<footer>
+    <p>✨ Made by Vanshika Kamboj</p>
+</footer>
+
+</body>
+</html>
